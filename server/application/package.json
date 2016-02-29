@@ -1,0 +1,24 @@
+{
+  "name": "mobilr_launchr",
+  "version": "0.0.1",
+  "description": "The mobilr Desktop launchr ",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxgreen/mobilr.git"
+  },
+  "keywords": [
+    "mobilr",
+    "remote",
+    "control"
+  ],
+  "author": "lxgreen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxgreen/mobilr/issues"
+  },
+  "homepage": "https://github.com/lxgreen/mobilr#readme"
+}
