@@ -1,10 +1,10 @@
 {
   "name": "mobilr_launchr",
   "version": "0.0.1",
-  "description": "The mobilr Desktop launchr ",
+  "description": "The mobilr Desktop launchr",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "mocha -R spec -t 10000"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/lxgreen/mobilr/issues"
   },
-  "homepage": "https://github.com/lxgreen/mobilr#readme"
+  "homepage": "https://github.com/lxgreen/mobilr#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "qr-image": "^3.1.0",
+    "angular2": "2.0.0-beta.17",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "window": {
+    "toolbar": true
+  }
 }

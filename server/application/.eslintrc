@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "globals": {
+    // Put things like jQuery, etc   
+  },
+  "env": {    
+    "node": true   
+  },
+  "rules": {
+  }
+}

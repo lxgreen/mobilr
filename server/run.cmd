@@ -1,1 +1,1 @@
-nw application
+.\nw.exe .\application
